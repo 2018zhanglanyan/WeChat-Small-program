@@ -1,25 +1,25 @@
 <view class='container'>
   <swiper>
     <swiper-item>
-      <image src='../../images/swiper/3.jpg'></image>
+      <image src='../../images/swiper/117.jpg'></image>
     </swiper-item>
     <swiper-item>
-      <image src='../../images/swiper/33.jpg'></image>
+      <image src='../../images/swiper/115.jpg'></image>
     </swiper-item>
   </swiper>
   <view class='article-box'>
     <view class='article-item'>
       <view class='article-head'>
-        <image class='article-head-avatar' src='../../images/swiper/115.jpg'></image>
+        <image class='article-head-avatar' src='../../images/swiper/116.jpg'></image>
         <text class='article-text'>2018-09-20</text>
       </view>
       <text class='article-title'>我是标题</text>
-      <view class='article-body'>
-        <image class='article-body-image' src='../../images/swiper/116.jpg'></image>
-        <text class='article-body-text'>ferfaer</text>
-      </view>
+      <image class='article-body-image' src='../../images/swiper/118.jpg'></image>
+      <text class='article-body-text'>我的描述</text>
       <view class='article-footer'>
-        <image class='article-footer-image' src='../../images/swiper/117.jpg'></image>
+        <image class='article-footer-image' src='../../images/icon/star.png'></image>
+        <text class='article-footer-text'>18</text>
+        <image class='article-footer-image' src='../../images/icon/eyes.png'></image>
         <text class='article-footer-text'>18</text>
       </view>
     </view>
