@@ -1,0 +1,19 @@
+  <view>
+  <view class='detail-img-box'>
+    <image class='detail-img-big ' src='{{background}}'></image>
+    <image catchtap='tapMusic' class='detail-img-small' src="{{ isPlayMusic ? '../../../images/icon/music-stop.jpg' : '../../../images/icon/music-start.jpg' }}"></image>
+  </view>
+  <view class='detail-author'>
+    <image class='detail-author-img' src='{{avatar}}'></image>
+    <text class='detail-author-text'>{{author}} 发表于 {{time}}</text>
+  </view>
+  <view class='detail-share'>
+    <image wx:if="{{currentIsCollented}}" catchtap='tapCollection' class='detail-share-keep' src='../../../images/article/article-detail-shoucang.jpg'></image>
+    <image wx:else catchtap='tapCollection' class='detail-share-keep' src='../../../images/article/article-detail-shoucang-none.jpg'></image>
+    <image catchtap='tapShare' class='detail-share-sharing' src='../../../images/article/article-detail-fenxiang.jpg'></image>
+    <view class='detail-share-line'></view>
+  </view>
+  <view class='detail-content'>
+    <text>{{content}}</text>
+  </view>
+</view>

@@ -1,6 +1,7 @@
 page{
    background: #fabd21;
 }
+
 .userinfo{
    margin-top: 100px;
   display: flex;

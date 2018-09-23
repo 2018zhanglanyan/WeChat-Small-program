@@ -4,16 +4,17 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.3.0",
-	"appid": "wxef47345b73430ce4",
-	"projectname": "02-post",
+	"libVersion": "2.0.4",
+	"appid": "wx17dfd60caac98317",
+	"projectname": "02-test",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

@@ -1,3 +1,5 @@
+@import 'article-item-template/article-item-template.wxss'
+
 swiper{
   width: 100%;
   height: 400rpx;
@@ -5,75 +7,8 @@ swiper{
 swiper-item{
   width: 100%;
 }
-swiper-item image{
-  width: 100%;
-  height: 100%;
-}
-/* 
-中心内容
- */
-.article-box{
+image{
   width: 100%;
 }
 
-.article-item{
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-.article-head{
-  width: 100%;
-  height: 50px; 
-}
-.article-head-avatar{
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 50%;
-  vertical-align: middle;
-  margin-left: 10px;
-}
 
-.article-text{
-  font-size: 32rpx;
-  color: #333;
-  margin-left: 20px;
-  vertical-align: middle;
-}
-.article-title{
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  font-size: 34rpx;
-  font-weight: bold;
-  padding-left: 10px;
-  vertical-align: middle;
-}
-
-.article-body{
-  width: 100%;
-  height: 400rpx;
-}
-.article-body-image{
-  width: 100%;
-}
-
-.article-body-text{
-  line-height: 60rpx;
-  font-size: 24rpx;
-  letter-spacing: 2px;
-  color: #666;
-  padding-left: 10px;
-  
-}
-/* 
-底部内容
- */
-.article-footer{
-  width: 100%;
-  height: 400rpx;
-}
-
-.article-footer-image{
-  width: 40rpx;
-  height: 40rpx;
-}
